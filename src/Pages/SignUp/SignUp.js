@@ -48,7 +48,7 @@ const {createUser} = useContext(AuthContext);
                             <label className="label">
                                 <span className="label-text">Password</span>
                             </label>
-                            <input type="text" name='password' placeholder="Enter Password" className="input input-bordered" required />
+                            <input type="password" name='password' placeholder="Enter Password" className="input input-bordered" required />
                         </div>
 
                         <div className="form-control mt-6">
